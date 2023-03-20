@@ -15,7 +15,11 @@ const QuestionInterface = () => {
         <OptionButton />
         <OptionButton />
       </div>
-      <CustomButton classStyle={"bg-red-500"} />
+      <div className="w-full flex justify-end items-center">
+        <div className="w-1/4 h-1/2">
+          <CustomButton text={"Next"} />
+        </div>
+      </div>
     </div>
   );
 };
