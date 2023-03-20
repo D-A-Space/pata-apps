@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
+import { QuizzesContext } from "../../../context/QuizzesContext";
 
 const QuestionField = () => {
+  const { gameState } = useContext(QuizzesContext);
   return (
     <div className="row-span-2   h-full w-full text-3xl font-mono font-bold text-white">
-      what is the capital of india? what is the capital of india? what is the
-      capital of india?
+      {gameState?.question_title}
     </div>
   );
 };
