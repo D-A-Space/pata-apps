@@ -15,10 +15,10 @@ const OptionButton = () => {
       />
       <label
         htmlFor={i}
-        className={`text-outer p-2 border-2 border-dashed border-outer peer-checked:border-solid peer-checked:border-candy peer-checked:text-candy peer-checked:[&>span:nth-of-type(1)]:hidden peer-checked:[&>span:nth-of-type(3)]:block  rounded-lg flex justify-between items-center`}
+        className={`text-outer text-lg p-2 border-2 border-dashed border-outer peer-checked:border-solid peer-checked:border-candy peer-checked:text-candy peer-checked:[&>span:nth-of-type(1)]:hidden peer-checked:[&>span:nth-of-type(3)]:block  rounded-lg flex justify-between items-center`}
         // className={`text-outer p-2 border-2 border-dashed border-outer peer-checked:border-solid  peer-checked:border-garden peer-checked:text-garden peer-checked:[&>span:nth-of-type(1)]:hidden peer-checked:[&>span:nth-of-type(2)]:block rounded-lg flex justify-between items-center`}
       >
-        Option
+        Option asdasdasd ewfewrv fvw
         <span>
           <IoRadioButtonOffOutline size={25} />
         </span>
