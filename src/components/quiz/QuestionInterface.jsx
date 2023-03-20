@@ -15,7 +15,7 @@ const QuestionInterface = () => {
         <OptionButton />
         <OptionButton />
       </div>
-      <CustomButton />
+      <CustomButton classStyle={"bg-red-500"} />
     </div>
   );
 };
