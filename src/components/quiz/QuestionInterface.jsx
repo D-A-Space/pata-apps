@@ -9,7 +9,7 @@ const QuestionInterface = () => {
     <div className="h-full w-full grid grid-rows-6 gap-1">
       <StatusBar />
       <QuestionField />
-      <div className="row-span-2 grid grid-rows-4  gap-1  p-1">
+      <div className="row-span-2 grid grid-rows-4 gap-3 p-3 px-5">
         <OptionButton />
         <OptionButton />
         <OptionButton />
