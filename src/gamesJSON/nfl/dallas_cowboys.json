@@ -1,0 +1,49 @@
+{
+  "settings": {
+    "game_title": "Dallas Cowboys"
+  },
+  "questions": [
+    {
+      "question": "Who is the Dallas Cowboys Quarterback?",
+      "options": [
+        {
+          "option": "Tony Romo",
+          "correct": true
+        },
+        {
+          "option": "Dak Prescott",
+          "correct": false
+        },
+        {
+          "option": "Ezekiel Elliot",
+          "correct": false
+        },
+        {
+          "option": "Dez Bryant",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Who is the Dallas Cowboys Running Back?",
+      "options": [
+        {
+          "option": "Tony Romo",
+          "correct": false
+        },
+        {
+          "option": "Dak Prescott",
+          "correct": false
+        },
+        {
+          "option": "Ezekiel Elliot",
+          "correct": true
+        },
+        {
+          "option": "Dez Bryant",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}
