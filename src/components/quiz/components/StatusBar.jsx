@@ -14,7 +14,7 @@ const StatusBar = () => {
             Question{" "}
           </span>
           <span className=" text-3xl  text-white">
-            {gameState.current_question + 1}
+            {+gameState?.current_question + 1}
           </span>
           <span>/{gameState?.questions_num}</span>
         </p>
