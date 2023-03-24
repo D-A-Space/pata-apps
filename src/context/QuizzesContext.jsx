@@ -7,6 +7,9 @@ export function QuizzesProvider({ children }) {
     settings: {},
   });
 
+  const [currentQuestion, setCurrentQuestion] = useState(0);
+  const [selectedAnswer, setSelectedAnswer] = useState({});
+
   const params = new URLSearchParams(window.location.search);
   useEffect(() => {
     if (params) {
@@ -28,15 +31,45 @@ export function QuizzesProvider({ children }) {
       history: gameCopy?.questions?.map((q) => {
         return null;
       }),
+      options: game?.questions[0]?.options,
     });
   }, [game]);
+
+  useEffect(() => {
+    if (currentQuestion > 0) {
+      setGameState({
+        ...gameState,
+        question_title: game?.questions[currentQuestion]?.question,
+        current_question: currentQuestion,
+        options: game?.questions[currentQuestion]?.options,
+      });
+    }
+  }, [currentQuestion]);
+
   useEffect(() => {
     console.log("gameState", gameState);
   }, [gameState]);
 
+  const handleNext = () => {
+    if (selectedAnswer?.option) {
+      let gameStateCopy = { ...gameState };
+      gameStateCopy.history[currentQuestion] = selectedAnswer?.correct;
+      setGameState({
+        ...gameState,
+        history: [...gameStateCopy?.history],
+      });
+      if (gameState?.questions_num - 1 > currentQuestion) {
+        setCurrentQuestion((prev) => prev + 1);
+      }
+      setSelectedAnswer({});
+    }
+  };
+
   return (
     <>
-      <QuizzesContext.Provider value={{ gameState }}>
+      <QuizzesContext.Provider
+        value={{ gameState, handleNext, selectedAnswer, setSelectedAnswer }}
+      >
         {children}
       </QuizzesContext.Provider>
     </>
