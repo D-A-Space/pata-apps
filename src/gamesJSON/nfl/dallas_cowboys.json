@@ -50,11 +50,11 @@
       "options": [
         {
           "option": "Tony Dorsett",
-          "correct": false
+          "correct": true
         },
         {
           "option": "Emmitt Smith",
-          "correct": true
+          "correct": false
         },
         {
           "option": "DeMarco Murray",
@@ -71,11 +71,11 @@
       "options": [
         {
           "option": "1970",
-          "correct": false
+          "correct": true
         },
         {
           "option": "1971",
-          "correct": true
+          "correct": false
         },
         {
           "option": "1972",
@@ -83,132 +83,6 @@
         },
         {
           "option": "1973",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Which Dallas Cowboys player holds the record for the most career sacks?",
-      "options": [
-        {
-          "option": "DeMarcus Ware",
-          "correct": false
-        },
-        {
-          "option": "Ed 'Too Tall' Jones",
-          "correct": false
-        },
-        {
-          "option": "Randy White",
-          "correct": false
-        },
-        {
-          "option": "Harvey Martin",
-          "correct": true
-        }
-      ]
-    },
-    {
-      "question": "Who holds the record for the most touchdown receptions in a single season for the Dallas Cowboys?",
-      "options": [
-        {
-          "option": "Dez Bryant",
-          "correct": false
-        },
-        {
-          "option": "Michael Irvin",
-          "correct": true
-        },
-        {
-          "option": "Bob Hayes",
-          "correct": false
-        },
-        {
-          "option": "Terrell Owens",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "What was the Dallas Cowboys' record during the 2021-2022 NFL season?",
-      "options": [
-        {
-          "option": "9-8",
-          "correct": false
-        },
-        {
-          "option": "10-7",
-          "correct": true
-        },
-        {
-          "option": "8-9",
-          "correct": false
-        },
-        {
-          "option": "7-10",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Who is the Dallas Cowboys' all-time leader in passing yards?",
-      "options": [
-        {
-          "option": "Tony Romo",
-          "correct": false
-        },
-        {
-          "option": "Roger Staubach",
-          "correct": false
-        },
-        {
-          "option": "Troy Aikman",
-          "correct": true
-        },
-        {
-          "option": "Danny White",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "What is the name of the Dallas Cowboys' cheerleading squad?",
-      "options": [
-        {
-          "option": "Cowboy Cheerleaders",
-          "correct": false
-        },
-        {
-          "option": "Dallas Dancers",
-          "correct": false
-        },
-        {
-          "option": "Cowgirls",
-          "correct": false
-        },
-        {
-          "option": "Dallas Cowboys Cheerleaders",
-          "correct": true
-        }
-      ]
-    },
-    {
-      "question": "Which Dallas Cowboys player holds the record for the most interceptions in a single season?",
-      "options": [
-        {
-          "option": "Everson Walls",
-          "correct": true
-        },
-        {
-          "option": "Mel Renfro",
-          "correct": false
-        },
-        {
-          "option": "Darren Woodson",
-          "correct": false
-        },
-        {
-          "option": "Deion Sanders",
           "correct": false
         }
       ]

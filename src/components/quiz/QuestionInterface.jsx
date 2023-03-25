@@ -6,7 +6,8 @@ import QuestionField from "./components/QuestionField";
 import StatusBar from "./components/StatusBar";
 
 const QuestionInterface = () => {
-  const { handleNext, gameState, selectedAnswer } = useContext(QuizzesContext);
+  const { handleNext, gameState, selectedAnswer, gameDone, handleRes } =
+    useContext(QuizzesContext);
 
   return (
     <div className="h-full w-full grid grid-rows-6 gap-1">
@@ -19,11 +20,19 @@ const QuestionInterface = () => {
       </div>
       <div className="w-full flex justify-end items-center">
         <div className="w-2/6 h-2/6">
-          <CustomButton
-            text={"Next"}
-            onclick={handleNext}
-            disabled={!Boolean(selectedAnswer?.option)}
-          />
+          {gameDone ? (
+            <CustomButton
+              text={"See Results"}
+              onclick={handleRes}
+              disabled={!Boolean(selectedAnswer?.option)}
+            />
+          ) : (
+            <CustomButton
+              text={"Next"}
+              onclick={handleNext}
+              disabled={!Boolean(selectedAnswer?.option)}
+            />
+          )}
         </div>
       </div>
     </div>

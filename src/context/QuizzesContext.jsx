@@ -6,10 +6,10 @@ export function QuizzesProvider({ children }) {
     questions: [],
     settings: {},
   });
-
+  const [gameDone, setGameDone] = useState(false);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState({});
-
+  const [resultView, setResultView] = useState(false);
   const params = new URLSearchParams(window.location.search);
   useEffect(() => {
     if (params) {
@@ -21,7 +21,7 @@ export function QuizzesProvider({ children }) {
   const [gameState, setGameState] = useState({});
   // SECTION prepare status bar for the game
   useEffect(() => {
-    console.log("game", game);
+    // console.log("game", game);
     let gameCopy = { ...game };
     setGameState({
       question_title: game?.questions[0]?.question,
@@ -47,11 +47,18 @@ export function QuizzesProvider({ children }) {
   }, [currentQuestion]);
 
   useEffect(() => {
-    console.log("gameState", gameState);
+    console.log("gameState", gameState.history);
   }, [gameState]);
 
   const handleNext = () => {
-    if (selectedAnswer?.option) {
+    if (gameState?.questions_num - 2 == currentQuestion) {
+      setGameDone(true);
+      console.log("game over -----------------");
+    }
+    if (
+      selectedAnswer?.option &&
+      gameState?.questions_num - 1 > currentQuestion
+    ) {
       let gameStateCopy = { ...gameState };
       gameStateCopy.history[currentQuestion] = selectedAnswer?.correct;
       setGameState({
@@ -65,10 +72,28 @@ export function QuizzesProvider({ children }) {
     }
   };
 
+  const handleRes = () => {
+    let gameStateCopy = { ...gameState };
+    gameStateCopy.history[currentQuestion] = selectedAnswer?.correct;
+    setGameState({
+      ...gameState,
+      history: [...gameStateCopy?.history],
+    });
+    setResultView(true);
+  };
+
   return (
     <>
       <QuizzesContext.Provider
-        value={{ gameState, handleNext, selectedAnswer, setSelectedAnswer }}
+        value={{
+          gameState,
+          handleNext,
+          selectedAnswer,
+          setSelectedAnswer,
+          gameDone,
+          handleRes,
+          resultView,
+        }}
       >
         {children}
       </QuizzesContext.Provider>

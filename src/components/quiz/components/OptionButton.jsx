@@ -6,9 +6,9 @@ import { QuizzesContext } from "../../../context/QuizzesContext";
 const OptionButton = ({ option }) => {
   const i = Math.random();
   const { selectedAnswer, setSelectedAnswer } = useContext(QuizzesContext);
-  useEffect(() => {
-    console.log("selectedAnswer", selectedAnswer);
-  }, [selectedAnswer]);
+  // useEffect(() => {
+  //   console.log("selectedAnswer", selectedAnswer);
+  // }, [selectedAnswer]);
   return (
     <div key={Math.random()}>
       <input
@@ -28,7 +28,7 @@ const OptionButton = ({ option }) => {
             : "peer-checked:border-candy peer-checked:text-candy peer-checked:[&>span:nth-of-type(1)]:hidden peer-checked:[&>span:nth-of-type(3)]:block"
         } ${
           option?.correct && Boolean(selectedAnswer?.option)
-            ? "border-garden !border-solid text-garden [&>span:nth-of-type(1)]:hidden [&>span:nth-of-type(2)]:block"
+            ? "!border-garden !border-solid !text-garden [&>span:nth-of-type(1)]:hidden [&>span:nth-of-type(2)]:block"
             : ""
         } ${
           Boolean(selectedAnswer?.option) ? "cursor-default" : "cursor-pointer"
