@@ -22,7 +22,7 @@
 }
 
 body{
-    touch-action: cross-slide-y;
+    touch-action: pan-y;
     overflow: hidden;
 }
 
