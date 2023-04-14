@@ -35,7 +35,7 @@ const ResultPage = () => {
         <div class="firework"></div>
         <div class="firework"></div>
       </div>
-      <div className="h-full flex flex-col justify-around ">
+      <div className="h-full flex flex-col justify-evenly ">
         <div className="">
           <h1 className="neon px-3 ">
             {" "}
