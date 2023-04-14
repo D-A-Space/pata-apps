@@ -21,7 +21,7 @@ const StatusBar = () => {
       </div>
       <div className="w-full flex gap-1">
         {gameState?.history?.map((q, i) => {
-          if (i == gameState?.current_question) {
+          if (i === gameState?.current_question) {
             return (
               <p key={i} className={`bg-blue3 w-full px-[2px] py-[2px]`}></p>
             );
@@ -46,6 +46,7 @@ const StatusBar = () => {
               );
             }
           }
+          return null;
         })}
       </div>
     </div>

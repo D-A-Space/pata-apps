@@ -39,7 +39,7 @@ const ResultPage = () => {
         <div className="">
           <h1 className="neon px-3 ">
             {" "}
-            {win == "won" || win == "tie"
+            {win === "won" || win === "tie"
               ? "You Won"
               : "You Lost"
               }
