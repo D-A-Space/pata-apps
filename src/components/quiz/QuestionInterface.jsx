@@ -10,7 +10,7 @@ const QuestionInterface = () => {
     useContext(QuizzesContext);
 
   return (
-    <div className="h-full w-full grid grid-rows-6 gap-1">
+    <div className="h-full w-full grid grid-rows-6 gap-1 p-5">
       <StatusBar />
       <QuestionField />
       <div className="row-span-2 grid grid-rows-4 gap-5 p-3 px-1">

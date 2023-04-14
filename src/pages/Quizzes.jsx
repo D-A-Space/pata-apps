@@ -7,7 +7,7 @@ const Quizzes = () => {
   const { resultView } = useContext(QuizzesContext);
   return (
     <>
-      <div className="h-screen w-screen bg-primary p-5">
+      <div className="h-screen w-screen bg-primary ">
         {resultView ? <ResultPage /> : <QuestionInterface />}
       </div>
     </>

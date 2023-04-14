@@ -4,65 +4,107 @@
   },
   "questions": [
     {
-      "question": "Who is the Dallas Cowboys Quarterback?",
+      "question": "What is the name of the stadium where the Dallas Cowboys play their home games?",
       "options": [
         {
-          "option": "Tony Romo",
+          "option": "AT&T Stadium",
           "correct": true
+        },
+        {
+          "option": "Cowboys Stadium",
+          "correct": false
+        },
+        {
+          "option": "Texas Stadium",
+          "correct": false
+        },
+        {
+          "option": "Jerry World",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Who holds the record for most touchdown passes in a single season for the Dallas Cowboys?",
+      "options": [
+        {
+          "option": "Roger Staubach",
+          "correct": false
+        },
+        {
+          "option": "Tony Romo",
+          "correct": false
         },
         {
           "option": "Dak Prescott",
           "correct": false
         },
         {
-          "option": "Ezekiel Elliot",
+          "option": "Don Meredith",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question": "Which of the following is not a retired number for the Dallas Cowboys?",
+      "options": [
+        {
+          "option": "12",
           "correct": false
         },
         {
-          "option": "Dez Bryant",
+          "option": "22",
+          "correct": false
+        },
+        {
+          "option": "43",
+          "correct": true
+        },
+        {
+          "option": "88",
           "correct": false
         }
       ]
     },
     {
-      "question": "What is the name of the Dallas Cowboys' owner?",
+      "question": "Who was the first Dallas Cowboy inducted into the Pro Football Hall of Fame?",
       "options": [
         {
-          "option": "Jerry Jones",
+          "option": "Bob Lilly",
           "correct": true
         },
         {
-          "option": "Stephen Jones",
+          "option": "Mel Renfro",
           "correct": false
         },
         {
-          "option": "Jason Garrett",
+          "option": "Tom Landry",
           "correct": false
         },
         {
-          "option": "Bill Parcells",
+          "option": "Roger Staubach",
           "correct": false
         }
       ]
     },
     {
-      "question": "Which player holds the record for the most rushing yards in a single season for the Dallas Cowboys?",
+      "question": "What is the name of the famous Dallas Cowboys cheerleading squad?",
       "options": [
         {
-          "option": "Tony Dorsett",
+          "option": "The Cowgirls",
+          "correct": false
+        },
+        {
+          "option": "The Cheerleaders",
+          "correct": false
+        },
+        {
+          "option": "The Blue Angels",
+          "correct": false
+        },
+        {
+          "option": "The Dallas Cowboys Cheerleaders",
           "correct": true
-        },
-        {
-          "option": "Emmitt Smith",
-          "correct": false
-        },
-        {
-          "option": "DeMarco Murray",
-          "correct": false
-        },
-        {
-          "option": "Zeke Elliott",
-          "correct": false
         }
       ]
     },
@@ -70,19 +112,313 @@
       "question": "What year did the Dallas Cowboys win their first Super Bowl?",
       "options": [
         {
-          "option": "1970",
-          "correct": true
-        },
-        {
           "option": "1971",
           "correct": false
         },
         {
           "option": "1972",
-          "correct": false
+          "correct": true
         },
         {
           "option": "1973",
+          "correct": false
+        },
+        {
+          "option": "1974",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Which of the following quarterbacks did not lead the Dallas Cowboys to a Super Bowl victory?",
+      "options": [
+        {
+          "option": "Roger Staubach",
+          "correct": false
+        },
+        {
+          "option": "Troy Aikman",
+          "correct": false
+        },
+        {
+          "option": "Dak Prescott",
+          "correct": true
+        },
+        {
+          "option": "Tony Romo",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Who is the Dallas Cowboys' all-time leader in receiving yards?",
+      "options": [
+        {
+          "option": "Drew Pearson",
+          "correct": false
+        },
+        {
+          "option": "Michael Irvin",
+          "correct": false
+        },
+        {
+          "option": "Dez Bryant",
+          "correct": false
+        },
+        {
+          "option": "Jason Witten",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question": "Which of the following players was not part of the Dallas Cowboys' famous 'Triplets' in the 1990s?",
+      "options": [
+        {
+          "option": "Emmitt Smith",
+          "correct": false
+        },
+        {
+          "option": "Troy Aikman",
+          "correct": false
+        },
+        {
+          "option": "Michael Irvin",
+          "correct": false
+        },
+        {
+          "option": "Deion Sanders",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question": "What is the name of the former Dallas Cowboys player who famously performed the 'Hail Mary' play?",
+      "options": [
+        {
+          "option": "Bob Hayes",
+          "correct": true
+        },
+        {
+          "option": "Tony Hill",
+          "correct": false
+        },
+        {
+          "option": "Drew Pearson",
+          "correct": false
+        },
+        {
+          "option": "Michael Irvin",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Which of the following players was not drafted by the Dallas Cowboys?",
+      "options": [
+        {
+          "option": "Tony Dorsett",
+          "correct": false
+        },
+        {
+          "option": "Randy White",
+          "correct": false
+        },
+        {
+          "option": "Larry Allen",
+          "correct": false
+        },
+        {
+          "option": "Deion Sanders",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question": "Which of the following players is not a member of the Dallas Cowboys Ring of Honor?",
+      "options": [
+        {
+          "option": "Bob Lilly",
+          "correct": false
+        },
+        {
+          "option": "Michael Irvin",
+          "correct": false
+        },
+        {
+          "option": "Emmitt Smith",
+          "correct": false
+        },
+        {
+          "option": "Troy Aikman",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question": "What is the nickname of the Dallas Cowboys' defensive line that helped the team win three Super Bowls in the 1990s?",
+      "options": [
+        {
+          "option": "The Doomsday Defense",
+          "correct": true
+        },
+        {
+          "option": "The Legion of Boom",
+          "correct": false
+        },
+        {
+          "option": "The Steel Curtain",
+          "correct": false
+        },
+        {
+          "option": "The Purple People Eaters",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Which of the following coaches did not coach the Dallas Cowboys during their five Super Bowl victories?",
+      "options": [
+        {
+          "option": "Tom Landry",
+          "correct": false
+        },
+        {
+          "option": "Jimmy Johnson",
+          "correct": false
+        },
+        {
+          "option": "Bill Parcells",
+          "correct": true
+        },
+        {
+          "option": "Barry Switzer",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Who is the Dallas Cowboys' all-time leader in quarterback sacks?",
+      "options": [
+        {
+          "option": "Randy White",
+          "correct": false
+        },
+        {
+          "option": "Ed 'Too Tall' Jones",
+          "correct": false
+        },
+        {
+          "option": "DeMarcus Ware",
+          "correct": false
+        },
+        {
+          "option": "Harvey Martin",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question": "What is the name of the Dallas Cowboys' iconic cheerleading squad?",
+      "options": [
+        {
+          "option": "The Cowboys Cheerleaders",
+          "correct": true
+        },
+        {
+          "option": "The Cowgirls",
+          "correct": false
+        },
+        {
+          "option": "The Dallas Dancers",
+          "correct": false
+        },
+        {
+          "option": "The Blue Belles",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Which of the following players famously broke his leg during a Dallas Cowboys playoff game?",
+      "options": [
+        {
+          "option": "Michael Irvin",
+          "correct": false
+        },
+        {
+          "option": "Emmitt Smith",
+          "correct": false
+        },
+        {
+          "option": "Tony Dorsett",
+          "correct": false
+        },
+        {
+          "option": "Dak Prescott",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question": "Which of the following players was not part of the Dallas Cowboys' 'Great Wall' offensive line?",
+      "options": [
+        {
+          "option": "Mark Tuinei",
+          "correct": false
+        },
+        {
+          "option": "Nate Newton",
+          "correct": false
+        },
+        {
+          "option": "Erik Williams",
+          "correct": false
+        },
+        {
+          "option": "Larry Allen",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question": "What is the name of the Dallas Cowboys' home stadium?",
+      "options": [
+        {
+          "option": "AT&T Stadium",
+          "correct": true
+        },
+        {
+          "option": "Cowboys Stadium",
+          "correct": false
+        },
+        {
+          "option": "Texas Stadium",
+          "correct": false
+        },
+        {
+          "option": "Jerry World",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Who is the Dallas Cowboys' all-time leader in touchdown receptions?",
+      "options": [
+        {
+          "option": "Michael Irvin",
+          "correct": false
+        },
+        {
+          "option": "Bob Hayes",
+          "correct": true
+        },
+        {
+          "option": "Drew Pearson",
+          "correct": false
+        },
+        {
+          "option": "Dez Bryant",
           "correct": false
         }
       ]
