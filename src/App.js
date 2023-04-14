@@ -18,7 +18,7 @@ const app = () => {
             </div>
           }
         />
-        <Route path="/quizzes" element={<Quizzes />} />
+        <Route path="/" element={<Quizzes />} />
       </Routes>
     </>
   );
