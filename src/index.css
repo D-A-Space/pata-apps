@@ -23,6 +23,7 @@
 
 body{
     touch-action: none;
+    overflow: hidden;
 }
 
 .firework,
