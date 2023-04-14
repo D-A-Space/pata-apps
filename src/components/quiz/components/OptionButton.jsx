@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext } from "react";
 import { IoRadioButtonOffOutline } from "react-icons/io5";
 import { AiOutlineCheckCircle, AiOutlineCloseCircle } from "react-icons/ai";
 import { QuizzesContext } from "../../../context/QuizzesContext";
