@@ -21,6 +21,10 @@
     }
 }
 
+body{
+    touch-action: none;
+}
+
 .firework,
 .firework::before,
 .firework::after {
