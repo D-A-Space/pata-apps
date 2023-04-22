@@ -33,6 +33,7 @@ export function QuizzesProvider({ children }) {
       }),
       options: game?.questions[0]?.options,
     });
+    window.document.title = `Pata Quizzes - ${game?.settings?.game_title}`;
   }, [game]);
 
   useEffect(() => {
